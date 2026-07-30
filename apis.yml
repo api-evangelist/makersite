@@ -1,8 +1,27 @@
 aid: makersite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makersite.png
 name: Makersite
-description: 'Makersite is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Makersite is an AI-powered Product Lifecycle Intelligence platform that helps
+  manufacturers manage product sustainability, cost, and compliance by
+  connecting products to deep-tier supply chain, material, and chemical data.
+  The platform automates lifecycle assessments (LCA) and product carbon
+  footprint (PCF) calculations, supports eco-design and cost optimization, and
+  produces regulatory reporting such as EU Taxonomy and CBAM. It integrates with
+  enterprise CAD, ERP, and PLM systems (PTC Windchill, Siemens Teamcenter,
+  Autodesk, ANSYS). Makersite is a portfolio company of Partech. As of this
+  enrichment pass it publishes no public developer API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/makersite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Applicative Saas
+- Sustainability
+- Product Lifecycle
+- Supply Chain
+- Compliance
+- Carbon Footprint
+- Life Cycle Assessment
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,30 @@ maintainers:
 common:
 - type: Website
   url: https://makersite.io/
+- type: Pricing
+  url: https://makersite.io/pricing/
+- type: Blog
+  url: https://makersite.io/insights/
+- type: Support
+  url: https://makersite.io/contact/
+- type: PrivacyPolicy
+  url: https://makersite.io/privacy-policy/
+- type: Security
+  url: https://makersite.io/responsible-disclosure-policy/
+- type: VulnerabilityDisclosure
+  url: security/makersite-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: https://makersite.io/your-data-in-safe-hands/
+- type: Compliance
+  url: https://makersite.io/your-data-in-safe-hands/
+- type: DomainSecurity
+  url: security/makersite-domain-security.yml
+- type: LLMsTxt
+  url: llms/makersite-llms.txt
+- type: WellKnown
+  url: well-known/makersite-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
