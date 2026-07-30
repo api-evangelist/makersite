@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of makersite.io/.well-known/*
+host: makersite.io
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+notes: >-
+  No .well-known discovery documents are published on makersite.io as of
+  2026-07-20. All five standard endpoints (security.txt, openid-configuration,
+  oauth-authorization-server, api-catalog, ai-plugin.json) return HTTP 404.
+  Makersite's Responsible Disclosure Policy is published as an HTML page
+  (https://makersite.io/responsible-disclosure-policy/) rather than a
+  machine-readable /.well-known/security.txt. This is expected: Makersite
+  publishes no public developer API or OAuth authorization surface.

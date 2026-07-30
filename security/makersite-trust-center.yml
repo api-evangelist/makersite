@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://makersite.io/your-data-in-safe-hands/
+url: https://makersite.io/your-data-in-safe-hands/
+certifications:
+- name: ISO 27001:2022
+  scope: Information Security Management System
+  certificate: DE016539
+  certifier: Bureau Veritas Certification Germany GmbH
+- name: TISAX
+  scope: Automotive information security (AL 2 / high protection)
+  scope_id: S60FFM
+  assessment_id: AV20AY-1
+  certifier: Bureau Veritas Certification Germany GmbH
+- name: GDPR
+  scope: EU data protection, audited by external DPO (Cortina Consult)
+evidence:
+- source: https://makersite.io/your-data-in-safe-hands/
+  keywords: [iso 27001, tisax, gdpr, information security]
