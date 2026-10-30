@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Makersite is a company surfaced as a portfolio company of partech and added to the API Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment pipeline.
+Makersite is an AI-powered Product Lifecycle Intelligence platform that helps manufacturers manage product sustainability, cost, and compliance by connecting products to deep-tier supply chain, material, and chemical data. The platform automates lifecycle assessments (LCA) and product carbon footprint (PCF) calculations, supports eco-design and cost optimization, and produces regulatory reporting such as EU Taxonomy and CBAM. It integrates with enterprise CAD, ERP, and PLM systems (PTC Windchill, Siemens Teamcenter, Autodesk, ANSYS). Makersite is a portfolio company of Partech. As of this enrichment pass it publishes no public developer API or developer portal.
 
-Backed by: partech — https://makersite.io/
+**Areas:** Company · Sustainability · Product Lifecycle · Supply Chain · Compliance · Carbon Footprint · Life Cycle Assessment · Manufacturing
+
+## Makersite on APIs.io
+
+Everything profiled for Makersite is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/makersite/](https://apis.io/providers/makersite/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Makersite Domain Security](https://apis.io/security/makersite/makersite-domain-security/)
+- [Makersite Trust Center](https://apis.io/security/makersite/makersite-trust-center/)
+- [Makersite Vulnerability Disclosure](https://apis.io/security/makersite/makersite-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://makersite.io/)
+- [Pricing](https://makersite.io/pricing/)
+- [Support](https://makersite.io/contact/)
+- [Blog](https://makersite.io/insights/)
+- [Security](https://makersite.io/responsible-disclosure-policy/)
+- [Compliance](https://makersite.io/your-data-in-safe-hands/)
+- [Trust centre](https://makersite.io/your-data-in-safe-hands/)
+- [Privacy policy](https://makersite.io/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 16.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 36.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/makersite/](https://apis.io/providers/makersite/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Makersite: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/makersite/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
